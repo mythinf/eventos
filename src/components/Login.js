@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import firebase from 'firebase';
 
-import './App.css';
 
-class App extends Component {
+
+class Login extends Component {
   constructor() {
     super();
     this.state = {
@@ -29,10 +29,10 @@ class App extends Component {
       .catch(error => console.log(`Error ${error.code}: ${error.message}`));
   }
 
-  handleLogout () {
+  handleLogout() {
     firebase.auth().signOut()
-    .then(result => console.log(`${result.user.email} ha salido`))
-    .catch(error => console.log(`Error ${error.code}: ${error.message}`));
+      .then(result => console.log(`${result.user.email} ha salido`))
+      .catch(error => console.log(`Error ${error.code}: ${error.message}`));
   }
 
 
@@ -47,26 +47,25 @@ class App extends Component {
         </div>
       );
     } else {
-      return(
+      return (
         // si no lo está
-      <button onClick={this.handleAuth}>Login con google</button>
-      );      
+        <button onClick={this.handleAuth}>Login con google</button>
+      );
     }
   }
-
   render() {
     return (
       <div className="App">
-        <div className="App-header">
-          <h2>Eventos</h2>
-        </div>
-        <p className="App-intro">
-          {this.renderLoginButton()}
-        </p>
+      <div className="App-header">
+        <h2>Eventos</h2>
       </div>
+      <p className="App-intro">
+        {this.renderLoginButton()}
+      </p>
+    </div>
     );
   }
+
 }
 
-export default App;
-
+export default Login;
