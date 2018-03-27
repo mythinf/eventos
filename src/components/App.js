@@ -1,8 +1,10 @@
 import React from 'react';
-import Header from './Header.js'
-import Footer from './Footer.js'
-import Login from './Login.js'
+import Header from './Header.js';
+import Footer from './Footer.js';
+// import Login from './Login.js';
 import firebase from 'firebase';
+import SectionRegister from './SectionRegister.js';
+
 
 
 firebase.initializeApp({
@@ -17,7 +19,8 @@ firebase.initializeApp({
 const App = ()=>(
   <div>
     <Header/>
-    <Login/>
+    <SectionRegister/>
+    {/* <Login/> */}
     <Footer/>
   </div>
 
