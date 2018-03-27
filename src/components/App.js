@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './Header.js'
 import Footer from './Footer.js'
 import Login from './Login.js'
+import InitialView from './InitialView.js'
 import firebase from 'firebase';
 
 
@@ -17,7 +18,7 @@ firebase.initializeApp({
 const App = ()=>(
   <div>
     <Header/>
-    <Login/>
+    <InitialView />
     <Footer/>
   </div>
 
