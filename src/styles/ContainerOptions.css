@@ -1,0 +1,9 @@
+.bg-red {
+  background-color: #EB2137;
+  color: #FFF;
+  padding: 2em;
+}
+
+span i {
+  font-size: 3em;
+}

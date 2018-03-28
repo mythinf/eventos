@@ -1,0 +1,12 @@
+header img {
+  width: 3em;
+}
+
+.btn-white {
+  background-color: transparent;
+  color: #8A949B;
+}
+
+.btn-white:hover {
+  color: #243743;
+}
