@@ -1,0 +1,51 @@
+.user {
+  width: 100%;
+  background-color: #19A5AB;
+  text-align: end;
+  padding: .3rem;
+  margin: 0;
+}
+
+.profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: .5rem;
+}
+.name {
+  font-size: 1rem;
+  list-style: none;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: 'Oswald', sans-serif;
+  display: inline-block;
+  margin-right: .5rem;
+}
+.logout {
+  font-size: 1rem;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 2px;
+  color: #19A5AB;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+}
+
+
+.login {
+  background-color: #ffffff;
+  color: #19A5AB;
+  font-weight: 300;
+  border-radius: 2px;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 0;
+  font-size: 1rem;
+  border: none;
+}
+/* logo */
+.logo {
+  width: 2rem;
+  height: auto;
+  margin-right: 1rem;
+}

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import firebase from 'firebase';
+import './login.css'
 
 
 
@@ -31,7 +32,7 @@ class Login extends Component {
 
   handleLogout() {
     firebase.auth().signOut()
-      .then(result => console.log(`${result.user.email} ha salido`))
+      .then(result => console.log(`${result.user.email} ha salido de la sesión`))
       .catch(error => console.log(`Error ${error.code}: ${error.message}`));
   }
 
@@ -40,29 +41,31 @@ class Login extends Component {
     // si el usuario está logeado
     if (this.state.user) {
       return (
-        <div>
-          <img width="100" src={this.state.user.photoURL} alt={this.state.user.displayName} />
-          <p>hola {this.state.user.displayName}!</p>
-          <button onClick={this.handleAuth}>Salir</button>
-        </div>
+        <nav>
+          <ul className="user">
+            <img className="rounded-circle prolife" width="100" src={this.state.user.photoURL} alt={this.state.user.displayName} />
+            <li className="name">{this.state.user.displayName}</li>
+            <button className="btn btn-info btn-lg logout" onClick={this.handleLogout}>Logout</button>
+          </ul>
+        </nav>
       );
     } else {
       return (
         // si no lo está
-        <button onClick={this.handleAuth}>Login con google</button>
+        <button className="btn btn-info btn-lg login" onClick={this.handleAuth}>Inicia sesión</button>
       );
     }
   }
   render() {
     return (
       <div className="App">
-      <div className="App-header">
-        <h2>Eventos</h2>
+        <div className="App-header">
+          {/*         <h2>EVENTLAB</h2> */}
+        </div>
+        <p className="App-intro">
+          {this.renderLoginButton()}
+        </p>
       </div>
-      <p className="App-intro">
-        {this.renderLoginButton()}
-      </p>
-    </div>
     );
   }
 

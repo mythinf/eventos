@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './Header.js';
 import Footer from './Footer.js';
-// import Login from './Login.js';
+import Login from './Login.js';
 import firebase from 'firebase';
 import SectionRegister from './SectionRegister.js';
 
@@ -20,7 +20,7 @@ const App = ()=>(
   <div>
     <Header/>
     <SectionRegister/>
-    {/* <Login/> */}
+    <Login/> 
     <Footer/>
   </div>
 
