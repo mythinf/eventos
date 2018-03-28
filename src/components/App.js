@@ -4,8 +4,7 @@ import Footer from './Footer.js';
 // import Login from './Login.js';
 import firebase from 'firebase';
 import SectionRegister from './SectionRegister.js';
-
-
+import AttendEvent from './AttendEvent.js';
 
 firebase.initializeApp({
   apiKey: "AIzaSyAF9CnCrkPu9qCrnoS0sq-kXajrR-gipOo",
@@ -19,13 +18,13 @@ firebase.initializeApp({
 const App = ()=>(
   <div>
     <Header/>
-    <SectionRegister/>
+    <AttendEvent/>
+    {/* <SectionRegister/> */}
     {/* <Login/> */}
     <Footer/>
   </div>
 
 )
-
 
 export default App;
 
