@@ -1,11 +1,13 @@
 import React from 'react';
-import Header from './Header'
+import Header from './Header';
 import Main from './Main';
-import Footer from './Footer'
+import Footer from './Footer';
 // import Login from './Login'
 import InitialView from './InitialView';
 import firebase from 'firebase';
 // import SectionRegister from './SectionRegister';
+import AttendEvent from './AttendEvent.js';
+import Session from './DataEvents.js';
 
 firebase.initializeApp({
   apiKey: "AIzaSyAF9CnCrkPu9qCrnoS0sq-kXajrR-gipOo",
@@ -19,6 +21,8 @@ firebase.initializeApp({
 const App = () => (
   <div>
     <Header/>
+    <Session/>
+    <AttendEvent/>
     {/* <SectionRegister/> */}
     {/* <Login/> */}
     <InitialView />
