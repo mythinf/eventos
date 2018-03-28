@@ -2,7 +2,7 @@
 
 EventLab es una web app donde podrás encontrar los mejores eventos de acuerdo a tus intereses y hacer Networking. Además si eres una empresa u organización, podrás crear eventos eventos de manera fácil y sencilla monitoreando la asistencia de tu público.
 
-![screens](assets/screen.png)
+![screens](src/assets/screen.png)
 
 ## Desarrollado para
 [Laboratoria](http://laboratoria.la)
@@ -49,13 +49,13 @@ Organizamos los resultados de la encuesta en el siguiente mapa de afinidad [ver 
 - Tiene la opción Agenda/ Calendario para los usuarios, el cual organizará de manera fácil y rápida los distintos eventos a los que asistirá el usuario.
 
 ### Versión 1.0 de EvenLab
-![screens](assets/logo.png)
+![screens](src/assets/logo.png)
 
 En esta versión se encuentran los requisitos básico propuestos en la Hackathon de Laboratoria. [ver aquí](https://marvelapp.com/43b88gd/screen/40373443).
 
 ## Proceso Front-end
 
-```
+
 ##Integrantes del equipo
 
 * UX designer:
@@ -66,7 +66,5 @@ En esta versión se encuentran los requisitos básico propuestos en la Hackathon
 * Front-end developers:  
 
   - Palma Milagros
-  - .
-  - .
-
-  ```
+  -
+  - 
