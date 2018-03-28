@@ -20,7 +20,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "homepage": "http://gitname.github.io/react-gh-pages"
+    "homepage": "https://milagrospalma.github.io/eventos"
   },
   "devDependencies": {
     "gh-pages": "^1.1.0"
