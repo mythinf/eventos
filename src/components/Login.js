@@ -3,7 +3,6 @@ import firebase from 'firebase';
 import '../styles/Login.css';
 import Session from './DataEvents';
 
-
 class Login extends Component {
   constructor() {
     super();
@@ -40,14 +39,14 @@ class Login extends Component {
     if (this.state.user) {
       return (
         <div>
-        <nav>
-          <ul className="user">
-            <img className="rounded-circle prolife" width="100" src={this.state.user.photoURL} alt={this.state.user.displayName} />
-            <li className="name">{this.state.user.displayName}</li>
-            <button className="btn btn-info btn-lg logout" onClick={this.handleLogout}>Logout</button>
-          </ul>
-        </nav>
-        {/* <Session /> */}
+          <nav>
+            <ul className="user">
+              <img className="rounded-circle prolife" width="100" src={this.state.user.photoURL} alt={this.state.user.displayName} />
+              <li className="name">{this.state.user.displayName}</li>
+              <button className="btn btn-info btn-lg logout" onClick={this.handleLogout}>Logout</button>
+            </ul>
+          </nav>
+          <Session />
         </div>
       );
     } else {
