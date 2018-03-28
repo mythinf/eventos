@@ -56,7 +56,7 @@ En esta versión se encuentran los requisitos básico propuestos en la Hackathon
 ## Proceso Front-end
 
 
-##Integrantes del equipo
+## Integrantes del equipo
 
 * UX designer:
 
