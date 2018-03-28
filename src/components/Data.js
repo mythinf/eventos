@@ -1,9 +1,11 @@
-const data = {
-  'Arte y cultura': [
+import React from 'react';
+import ChooseEvent from './ChooseEvent.js';
+
+const Data = [
     {
       name: 'Técnicas básicas de grabado y linografía',
       description: 'El grabado se basa en el concepto de transferir una imagen grabada en una matriz...',
-      image: '',
+      image: 'https://user-images.githubusercontent.com/32284212/38007168-ab2fec14-320d-11e8-8406-39802bc58734.png',
       total: 30,
       point: 'UNMSM',
       date1: '12-05-2018',
@@ -30,5 +32,14 @@ const data = {
       date2: '15-04-2018',
       time: '10:00 a.m.',
     }
-  ]
-}
+]
+
+
+const Session=()=>(
+  <div>
+    <ChooseEvent sesiones = {Data}/>
+  </div>
+)
+
+
+export default Session
