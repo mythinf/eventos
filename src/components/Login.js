@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import firebase from 'firebase';
 
-
-
 class Login extends Component {
   constructor() {
     super();
@@ -20,7 +18,6 @@ class Login extends Component {
     });
   }
 
-
   handleAuth() {
     const provider = new firebase.auth.GoogleAuthProvider();
 
@@ -34,7 +31,6 @@ class Login extends Component {
       .then(result => console.log(`${result.user.email} ha salido`))
       .catch(error => console.log(`Error ${error.code}: ${error.message}`));
   }
-
 
   renderLoginButton() {
     // si el usuario está logeado
@@ -65,7 +61,6 @@ class Login extends Component {
     </div>
     );
   }
-
 }
 
 export default Login;

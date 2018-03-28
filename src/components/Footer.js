@@ -1,12 +1,12 @@
 import React from 'react';
-
+import '../styles/Footer.css';
 
 const Footer = () => (
-  <div className="">
-    <div className="text-center bg-secondary text-white py-3">      
-      <span>Footer</span>
+  <footer>
+    <div className="text-center text-white py-3">      
+      <span>© 2018 EventLab - Creative Frontend-UX Girls. All rights reserved.</span>
     </div>
-  </div>
+  </footer>
 )
 
-export default Footer
+export default Footer;

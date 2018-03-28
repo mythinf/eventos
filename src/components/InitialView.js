@@ -1,12 +1,18 @@
 import React from 'react';
 import Main from './Main';
 import Banner from './Banner';
-import SectionContent from './SectionContent';
+import Presentation from './Presentation';
+import ContainerOptions from './ContainerOptions';
+import Companies from './Companies';
 
 const InitialView = () => (
   <div>
     <Banner />
-    <SectionContent />
+    <div className="container-fluid">
+      <Presentation />
+      <ContainerOptions />
+      <Companies />
+    </div>
   </div>
 )
 

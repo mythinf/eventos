@@ -9,7 +9,6 @@ const Pagination = () => (
       <li className=" grey rounded-circle text-center"><a href="">3</a></li>
     </ul>
   </div>
-  
 )
 
-export default Pagination
+export default Pagination;
