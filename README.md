@@ -36,7 +36,7 @@ Documentación de imágenes del proceso de research [ver aquí](https://drive.go
 ## Encuestando usuarios
 
 Realizamos una encuesta para conocer qué perfiles e intereses tendrían cada uno de nuestros usuario y poder adaptarnos a sus necesidades. [Ver encuesta](https://docs.google.com/forms/d/1btca599kTQIbf_LTf13mr6TZCnAQzmXePaVrdG8RGg0/edit).
-![screens](src/assets/logo.png)
+![screens](src/assets/encuesta.png)
 
 Organizamos los resultados de la encuesta en el siguiente mapa de afinidad [ver aquí](https://realtimeboard.com/app/board/o9J_kzyPHNE=/)
 
@@ -76,9 +76,7 @@ Con la información recaudada del research previa, se construye nuestra User Per
 
 ### Paper Prototyping
 
-![prototipo1](src/assets/paper1.jpg)
-![prototipo2](src/assets/paper2.jpg)
-
+Documentación de imágenes del Paper Prototyping las puedes encontrar en el siguiente enlace [ver aquí](https://drive.google.com/drive/folders/1TtUKPs6v6WOMdGXfSV32M_WXAlV8d5DY?ths=true)
 
 ### Versión 1.0 de EventLab
 ![screens](src/assets/logo.png)
