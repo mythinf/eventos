@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import firebase from 'firebase';
-import './login.css'
+import '../styles/Login.css';
+import Session from './DataEvents';
+
 
 class Login extends Component {
   constructor() {
@@ -37,6 +39,7 @@ class Login extends Component {
     // si el usuario está logeado
     if (this.state.user) {
       return (
+        <div>
         <nav>
           <ul className="user">
             <img className="rounded-circle prolife" width="100" src={this.state.user.photoURL} alt={this.state.user.displayName} />
@@ -44,25 +47,18 @@ class Login extends Component {
             <button className="btn btn-info btn-lg logout" onClick={this.handleLogout}>Logout</button>
           </ul>
         </nav>
+        {/* <Session /> */}
+        </div>
       );
     } else {
       return (
         // si no lo está
-        <button className="btn btn-info btn-lg login" onClick={this.handleAuth}>Inicia sesión</button>
+        <button className="btn btn-white my-2 my-sm-0" onClick={this.handleAuth}>Inicia sesión</button>
       );
     }
   }
   render() {
-    return (
-      <div className="App">
-        <div className="App-header">
-          {/*         <h2>EVENTLAB</h2> */}
-        </div>
-        <p className="App-intro">
-          {this.renderLoginButton()}
-        </p>
-      </div>
-    );
+    return (this.renderLoginButton());
   }
 }
 
