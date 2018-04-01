@@ -2,7 +2,7 @@
 
 EventLab es una web app donde podrás encontrar los mejores eventos de acuerdo a tus intereses y hacer Networking. Además si eres una empresa u organización, podrás crear eventos de manera fácil y sencilla monitoreando la asistencia de tu público.
 
-![screens](src/assets/screen.png)
+![screens](https://raw.githubusercontent.com/milagrospalma/eventos/master/src/assets/screen.png)
 
 ## Desarrollado para
 [Laboratoria](http://laboratoria.la)
